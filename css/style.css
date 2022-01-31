@@ -64,7 +64,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #82828200;
+    transition: all 0.8s ease 0.4s;
 }
 
 .nav-link {
@@ -644,6 +645,10 @@ body {
 .nav-link._active {
     transform: translate(0px, 0px);
     opacity: 1;
+}
+
+.nav._active {
+    border-bottom: 1px solid #828282;
 }
 
 .slide._active {
