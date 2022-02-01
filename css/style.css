@@ -64,13 +64,37 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px 0;
-    border-bottom: 1px solid #828282;
+    border-bottom: 1px solid #82828200;
+    transition: all 0.8s ease 0.4s;
 }
 
 .nav-link {
     color: #828282;
     /* font-weight: bold; */
     text-transform: uppercase;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.nav-link:nth-child(1) {
+    transition: all 0.8s ease 0.2s;
+}
+
+.nav-link:nth-child(2) {
+    transition: all 0.8s ease 0.4s;
+}
+
+.nav-link:nth-child(3) {
+    transition: all 0.8s ease 0.6s;
+}
+
+.nav-link:nth-child(4) {
+    transition: all 0.8s ease 0.8s;
+}
+
+.nav-link:nth-child(5) {
+    transition: all 0.8s ease 1s;
 }
 
 .nav-link:hover {
@@ -248,6 +272,8 @@ body {
     position: absolute;
     top: 460px;
     right: 170px;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
 
@@ -263,6 +289,11 @@ body {
 .active-link {
     color: #070707;
     font-weight: bold;
+}
+
+.main-photo {
+    opacity: 0;
+    transition: all 0.8s ease 0.4s;
 }
 
 
@@ -290,6 +321,7 @@ body {
 }
 
 .container-about-me h2 {
+    overflow: hidden;
     padding-top: 80px;
     margin-bottom: 70px;
     font-size: 34px;
@@ -301,6 +333,8 @@ body {
 }
 
 .container-about-me p {
+    overflow: hidden;
+    transform: translate(-120%, 0px);
     margin-bottom: 60px;
 }
 
@@ -325,6 +359,7 @@ body {
 }
 
 .skills p {
+    transform: translate(-120%, 0px);
     margin-bottom: 80px;
 }
 
@@ -340,6 +375,8 @@ body {
 
 .skills-item {
     max-width: 180px;
+    transform: scale(0);
+    transition: all 0.8s ease 0s;
 }
 
 .skills-item img{
@@ -384,6 +421,7 @@ body {
 }
 
 .contacts p {
+    transform: translate(-120%, 0px);
     line-height: 30px;
     padding-bottom: 60px;
 }
@@ -399,6 +437,9 @@ body {
     background-color: #070707;
     color: #F6F6F6;
     font-size: 12px;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.7s;
 }
 
 .link::first-letter {
@@ -422,6 +463,9 @@ body {
 
 .container-contacts img {
     max-width: 40px;
+    transform: translate(120%, 0px);
+    opacity: 0;
+    transition: all 0.8s ease 0.7s;
 }
 
 
@@ -468,6 +512,11 @@ body {
     position: relative;
     transition: all 500ms ease-in-out;
     box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.slide {
+    opacity: 0;
+    transition: opacity 1s ease 0.5s;
 }
 
 .slide h3 {
@@ -533,7 +582,84 @@ body {
     text-transform: uppercase;
     padding-top: 30px; 
 }
-  
+
+
+/* Animation */
+
+
+
+.title {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.title._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.subtitle {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.subtitle._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+    transition: all 0.8s ease 0.7s;
+}
+
+.container-link-language._active {
+    opacity: 1;
+    transition: all 0.8s ease 1.5s;
+}
+
+._anim-show {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._anim-show._active,
+._active ._anim-show {
+    transform: translate(0px, 0px);
+    opacity: 1; 
+}
+
+.skills-item._active {
+    transform: scale(1)
+}
+
+.container-contacts img._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.link._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.nav-link._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.nav._active {
+    border-bottom: 1px solid #828282;
+}
+
+.slide._active {
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+
+.main-photo._active {
+    opacity: 1;
+}
+
 /* @media (min-width:1200px) {
     .container-title {
         position: absolute;
