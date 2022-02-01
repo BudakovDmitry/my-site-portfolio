@@ -1333,8 +1333,19 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+}
 
-
-
-
+@media (max-width:479px) {
+    .burger-menu_button {
+        position: fixed;
+        top: 2px;
+        right: 180px;
+        z-index: 30;
+        width: 60px;
+        height: 60px;
+        -webkit-transition: 0.4s;
+        -moz-transition: 0.4s;
+        -o-transition: 0.4s;
+        transition: 0.4s;
+      }
 }
