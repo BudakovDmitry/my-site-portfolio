@@ -99,7 +99,7 @@ body {
 
 .nav-link:hover {
     color: #070707;
-    /* font-weight: bold; */
+    font-weight: bold;
 }
 
 /* Burger menu */
@@ -437,7 +437,6 @@ body {
     background-color: #070707;
     color: #F6F6F6;
     font-size: 12px;
-    transform: translate(120%, 0px);
     opacity: 0;
     transition: all 0.8s ease 0.7s;
 }
@@ -971,6 +970,7 @@ body {
 
 @media (max-width:479px) {
 
+
     .nav {
         display: flex;
         justify-content: space-between;
@@ -1333,19 +1333,82 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+
+
+.title {
+    /* transform: translate(0px, 120%); */
+    opacity: 0;
+    transition: all 0.8s ease 0s;
 }
 
-@media (max-width:479px) {
-    .burger-menu_button {
-        position: fixed;
-        top: 2px;
-        right: 180px;
-        z-index: 30;
-        width: 60px;
-        height: 60px;
-        -webkit-transition: 0.4s;
-        -moz-transition: 0.4s;
-        -o-transition: 0.4s;
-        transition: 0.4s;
-      }
+.title._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
 }
+
+.subtitle {
+    /* transform: translate(0px, 120%); */
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+.subtitle._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
+    transition: all 0.8s ease 0.7s;
+}
+
+.container-link-language._active {
+    opacity: 1;
+    transition: all 0.8s ease 1.5s;
+}
+
+._anim-show {
+    /* transform: translate(0px, 120%); */
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+
+._anim-show._active,
+._active ._anim-show {
+    /* transform: translate(0px, 0px); */
+    opacity: 1; 
+}
+
+.skills-item._active {
+    /* transform: scale(1) */
+}
+
+.container-contacts img._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
+}
+
+.link._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
+}
+
+.nav-link._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
+}
+
+.nav._active {
+    border-bottom: 1px solid #828282;
+}
+
+.slide._active {
+    /* transform: translate(0px, 0px); */
+    opacity: 1;
+}
+
+.main-photo._active {
+    opacity: 1;
+}
+
+
+}
+
+
