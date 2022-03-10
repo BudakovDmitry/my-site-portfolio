@@ -100,16 +100,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
   function burgerMenu(selector) {
     let menu = $(selector);
     let button = menu.find('.burger-menu_button', '.burger-menu_lines');
