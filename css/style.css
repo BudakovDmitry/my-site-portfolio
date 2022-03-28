@@ -423,7 +423,6 @@ body {
   max-width: 50%;
 }
 
-
 /* Portfolio */
 
 .portfolio h2 {
@@ -464,18 +463,18 @@ body {
 }
 
 .link {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding: 15px;
-    max-width: 200px;
-    height: 46px;
-    border-radius: 50px;
-    background-color: #070707;
-    color: #F6F6F6;
-    font-size: 12px;
-    opacity: 0;
-    transition: all 0.8s ease 0.7s;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 15px;
+  max-width: 200px;
+  height: 46px;
+  border-radius: 50px;
+  background-color: #070707;
+  color: #f6f6f6;
+  font-size: 12px;
+  opacity: 0;
+  transition: all 0.8s ease 0.7s;
 }
 
 .link::first-letter {
@@ -1010,7 +1009,6 @@ body {
     border-bottom: 1px solid #828282;
   }
 
-
   .nav-link {
     display: none;
   }
@@ -1361,4 +1359,4 @@ body {
     display: block;
     background-color: rgba(0, 0, 0, 0.5);
   }
-
+}
