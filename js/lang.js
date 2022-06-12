@@ -44,16 +44,16 @@ const language = {
         en: "skills",
         ru: "навыки",
     },
-    // 'nav-portfolio' : {
-    //     'ua': 'портфоліо',
-    //     'en': 'portfolio',
-    //     'ru': 'портфолио'
-    // },
-    // 'burger-portfolio' : {
-    //     'ua': 'портфоліо',
-    //     'en': 'portfolio',
-    //     'ru': 'портфолио'
-    // },
+    'nav-portfolio' : {
+        'ua': 'портфоліо',
+        'en': 'portfolio',
+        'ru': 'портфолио'
+    },
+    'burger-portfolio' : {
+        'ua': 'портфоліо',
+        'en': 'portfolio',
+        'ru': 'портфолио'
+    },
     "nav-contacts": {
         ua: "контакти",
         en: "contacts",
@@ -94,11 +94,11 @@ const language = {
         en: "i work with such technologies",
         ru: "я работаю с такими технологиями",
     },
-    // "portfolio-title": {
-    //     ua: "портфоліо",
-    //     en: "portfolio",
-    //     ru: "портфолио",
-    // },
+    "portfolio-title": {
+        ua: "портфоліо",
+        en: "portfolio",
+        ru: "портфолио",
+    },
     "contacts-title": {
         ua: "контакти",
         en: "contacts",
