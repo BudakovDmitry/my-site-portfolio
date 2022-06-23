@@ -44,15 +44,15 @@ const language = {
         en: "skills",
         ru: "навыки",
     },
-    'nav-portfolio' : {
-        'ua': 'портфоліо',
-        'en': 'portfolio',
-        'ru': 'портфолио'
+    "nav-portfolio": {
+        ua: "портфоліо",
+        en: "portfolio",
+        ru: "портфолио",
     },
-    'burger-portfolio' : {
-        'ua': 'портфоліо',
-        'en': 'portfolio',
-        'ru': 'портфолио'
+    "burger-portfolio": {
+        ua: "портфоліо",
+        en: "portfolio",
+        ru: "портфолио",
     },
     "nav-contacts": {
         ua: "контакти",
@@ -113,5 +113,80 @@ const language = {
         ua: "відправити повідомлення",
         en: "send message",
         ru: "отправить сообщение",
+    },
+    "portfolio-button": {
+        ua: "ДИВИТИСЬ БІЛЬШЕ",
+        en: "SEE MORE",
+        ru: "ПОСМОТРЕТЬ БОЛЬШЕ",
+    },
+    "portfolio-t-game-title": {
+        ua: "Т - Гра",
+        en: "T - Game",
+        ru: "Т - Игра",
+    },
+    "portfolio-t-game": {
+        ua: "Онлайн версія психологічної трансформаційної гри 'Жіноче коло'",
+        en: "Web version of the psychological transformation game 'Women's Circle'",
+        ru: "Онлайн версия психологической трансформационной игры 'Женский круг'",
+    },
+    "portfolio-dynamic-landing-page-title": {
+        ua: "Динамічна цільова сторінка",
+        en: "Dynamic Landing Page",
+        ru: "Динамическая лендинг страница",
+    },
+    "portfolio-dynamic-landing-page": {
+        ua: "Динамічна сторінка з відображенням часу, фон змінюється залежно від часу доби",
+        en: "Dynamic page with time display, background changes depending on the time of day",
+        ru: "Динамическая страница с отображением времени, фон меняется в зависимости от времени суток",
+    },
+    "portfolio-health-care-title": {
+        ua: "Охорона здоров'я",
+        en: "Health care",
+        ru: "Здравоохранение",
+    },
+    "portfolio-health-care": {
+        ua: "Макет цільової сторінки",
+        en: "Landing page layout",
+        ru: "Макет целевой страницы",
+    },
+    "portfolio-black-white-title": {
+        ua: "Чорне & Біле",
+        en: "Black & White",
+        ru: "Чёрное & Белое",
+    },
+    "portfolio-black-white": {
+        ua: "Макет цільової сторінки",
+        en: "Landing page layout",
+        ru: "Макет целевой страницы",
+    },
+    "portfolio-games-templates-title": {
+        ua: "Шаблони для ігор",
+        en: "Games templates",
+        ru: "Шаблоны игр",
+    },
+    "portfolio-games-templates": {
+        ua: "Макет цільової сторінки",
+        en: "Landing page layout",
+        ru: "Макет целевой страницы",
+    },
+    "portfolio-meme-generate-title": {
+        ua: "Генератор мемів",
+        en: "Memes generate",
+        ru: "Создание мемов",
+    },
+    "portfolio-meme-generate": {
+        ua: "Додаток для генерації мемів",
+        en: "Meme Generator Application",
+        ru: "Приложение для создания мемов",
+    },
+    "portfolio-todo-list-title": {
+        ua: "Список справ",
+        en: "Todo List",
+        ru: "Список дел",
+    },
+    "portfolio-todo-list": {
+        ua: "Додаток для списку справ",
+        en: "Meme Generator Application",
+        ru: "Приложение списка задач",
     },
 };
