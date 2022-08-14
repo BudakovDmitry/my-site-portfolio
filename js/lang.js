@@ -189,4 +189,14 @@ const language = {
         en: "Meme Generator Application",
         ru: "Приложение списка задач",
     },
+    "portfolio-kion-title": {
+        ua: "КІОН",
+        en: "KION",
+        ru: "КИОН",
+    },
+    "portfolio-kion": {
+        ua: "Макет цільової сторінки",
+        en: "Landing page",
+        ru: "Макет целевой страницы",
+    },
 };
