@@ -199,4 +199,14 @@ const language = {
         en: "Landing page",
         ru: "Макет целевой страницы",
     },
+    "portfolio-prediction-cards-title": {
+        ua: "Картки з прогнозами",
+        en: "Prediction сards",
+        ru: "Карты предсказаний",
+    },
+    "portfolio-prediction-cards": {
+        ua: "Веб-версія карт прогнозів",
+        en: "Web version of the prediction cards",
+        ru: "Веб-версия карт предсказаний",
+    },
 };
