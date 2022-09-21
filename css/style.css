@@ -576,6 +576,20 @@ body {
   transition: opacity 0.5s ease-in 0.4s;
 }
 
+.technology-project {
+  width: 200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.technology-project img {
+  display: block;
+  width: 30px;
+}
+
 /* ---------- */
 
 .container-title {
