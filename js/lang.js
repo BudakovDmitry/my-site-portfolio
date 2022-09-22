@@ -91,7 +91,7 @@ const language = {
     },
     "skills-description": {
         ua: "я працюю з такими технологіями",
-        en: "i work with such technologies",
+        en: "i work with this technologies",
         ru: "я работаю с такими технологиями",
     },
     "portfolio-title": {
@@ -208,5 +208,15 @@ const language = {
         ua: "Веб-версія карт прогнозів",
         en: "Web version of the prediction cards",
         ru: "Веб-версия карт предсказаний",
+    },
+    "portfolio-finance-dashboard-title": {
+        ua: "Інформаційна панель фінансів",
+        en: "Finance Dashboard",
+        ru: "Финансовая панель",
+    },
+    "portfolio-finance-dashboard": {
+        ua: "Додаток для фінансового обліку",
+        en: "Financial accounting app",
+        ru: "Приложение для финансового учета",
     },
 };
