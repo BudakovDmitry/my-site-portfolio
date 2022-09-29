@@ -91,7 +91,7 @@ const language = {
     },
     "skills-description": {
         ua: "я працюю з такими технологіями",
-        en: "i work with this technologies",
+        en: "i work with these technologies",
         ru: "я работаю с такими технологиями",
     },
     "portfolio-title": {
