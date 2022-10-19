@@ -219,4 +219,14 @@ const language = {
         en: "Financial accounting app",
         ru: "Приложение для финансового учета",
     },
+    "portfolio-learn-words-title": {
+        ua: "Вчи слова",
+        en: "Learn words",
+        ru: "Учить слова",
+    },
+    "portfolio-learn-words": {
+        ua: "Додаток для вивчення слів",
+        en: "Word learning application",
+        ru: "Приложение для изучения слов",
+    },
 };
